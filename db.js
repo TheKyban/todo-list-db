@@ -72,4 +72,4 @@ app.put("/",async(req,res)=>{
 })
 
 
-app.listen(7575, () => console.log("http://localhost:7575"))
+app.listen(process.env.PORT ||7575, () => console.log("http://localhost:7575"))
